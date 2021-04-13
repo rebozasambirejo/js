@@ -4,6 +4,7 @@ function cdClear() {
     wtarea.focus();
     document.getElementById('convert').disabled = false;
   document.getElementById("btn-copy")
+        .style.display = "none", document.getElementById("btnInfo")
         .style.display = "none"
 }
 function cdConvert() {
